@@ -55,11 +55,14 @@ const getData = () => {
             // ---------------------- DELIVERABLE -----------------------------------
             // When somebody searches for a tweet, they will only see tweets that contain hashtags.
 
+tweetsWithHashtags = statuses.text.filter(function(status) {
+  return status.text.indexOf('#') >=0
 
-            json.statuses.forEach((status) => {
+            tweetsWithHashtags.forEach((status) => {
                 div = document.createElement('div')
                 div.className = 'tweet'
-                textNode = document.createTextNode(status.text)
+
+                textNode = document.createTextNodereverse(status.text)
                 div.appendChild(textNode)
                 document.getElementById('results').appendChild(div)
             })

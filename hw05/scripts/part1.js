@@ -74,3 +74,13 @@ const getData = () => {
 
         })
 }
+const reverseText = (text) => {
+    return text.split('').reverse().join('');
+}
+const reverseTweet = (tweetText)=> {
+  if(tweetText.indexOf('#')=== -1) {return reverseText(tweetText)
+  }
+else {return tweetText
+}
+
+//if has # return normal tweetText otherwise tweet is reversed text

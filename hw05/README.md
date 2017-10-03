@@ -18,6 +18,13 @@ This homework will require some googling. As a software engineer, a lot of what 
 ## PART II: Reading response
 Edit README.MD and write your reading response here!
 
+
+I researched how to create a function to reverse text. I found Free Code Camp on Medium.com.
+
+"Reversing a string is one of the most frequently asked JavaScript question in the technical round of interview. Interviewers may ask you to write different ways to reverse a string, or they may ask you to reverse a string without using in-built methods, or they may even ask you to reverse a string using recursion."
+
+I found this to revelation to be a bit annoying because I don't understand why one simple way to reverse a string isn't enough. if you want to jumble a string it makes sense to me to be able to manipulate its elements by singularizing them and telling them where to go but if you just want to reverse the order of the string then why isn't var a =['one', 'two','three']; "a.reverse(); enough rather than there being 10 different ways to do it. It seems like creating a standard syntax would make life more efficient and also easier to learn. Also I learned that var isn't used anymore yet here it is. I may be peering over the edge of the pit of despair...but it motivates me to a; look at a kids lessons for javascript, b; learn a more succinct language and c; create a succinct language somehow and create more fun metaphors to express the concepts.
+
 ## Part III: JavaScript Homework
 
 ### Step 1: Reverse a tweet
