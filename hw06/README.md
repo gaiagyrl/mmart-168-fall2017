@@ -16,7 +16,11 @@ This homework will require some googling. As a software engineer, a lot of what 
 6. Verify that you are now on the new branch: `$ git branch` (check that your new branch has an asterisk next to it).
 
 ## PART II: Reading response
-Edit README.MD and write your reading response here!
+https://developer.mozilla.org/en-US/docs/Learn/WebGL/By_example/Detect_WebGL
+"In this first example we are going to check whether the browser supports WebGL. To that end we will try to obtain the WebGL rendering context from a canvas element. The WebGL rendering context is an interface, through which you can set and query the state of the graphics machine, send data to the WebGL, and execute draw commands."
+
+In this example of how to check to see if the browser supports WebGL I was immediately confused by where to put the code sample they offered to see if the browser would read it since the button example which states to press it to see if the code works...does not work nor does anything happen in codepen. It may be to do do with the internet connection I am working on but it thwarts ones confidence when you are not getting anywhere.
+
 
 ## Part III: JavaScript Homework
 

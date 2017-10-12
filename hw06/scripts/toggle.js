@@ -7,6 +7,25 @@
 // on the element contains the 'active' class
 // If it does, remove the 'active' class. If it doesn't add the 'active' class.
 
+const.togglelike = () => {
+  if (document.getElementById('like1').classList.contains('active')) {
+    document.getElementById('like1').classList.remove('active')) {
+
+    console.log('remove the active class')
+
+  } else {
+
+    console.log('add the active class')
+  }
+
+  document.getElementById('like1').classList.add('active')) {
+
+
+//console.log(document.getElementById('like1').classlist.contains('active'))
+
+}
+
+
 
 // ------------------------------------
 // PART 2
@@ -15,3 +34,8 @@
 // It should find a DOM element with the id 'like'
 // Without writing a conditional statement,
 // use the classList to toggle the 'active class'
+
+const togglelike=(sourceDOMElement)=>{
+  console.log(elem)
+  sourceDOMElement.classlist.togglelike('active')
+}
