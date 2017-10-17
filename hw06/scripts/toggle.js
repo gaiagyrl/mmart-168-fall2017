@@ -21,10 +21,11 @@ const.togglelike = () => {
   document.getElementById('like1').classList.add('active')) {
 
 
-//console.log(document.getElementById('like1').classlist.contains('active'))
-
+//console.log(document.getElementById('like1').classlist.contains('active')}
+const.togglelike=(sourceDOMElement)=>{
+  console.log(elem)
+  sourceDOMElement.classlist.togglelike('active')
 }
-
 
 
 // ------------------------------------
@@ -34,8 +35,7 @@ const.togglelike = () => {
 // It should find a DOM element with the id 'like'
 // Without writing a conditional statement,
 // use the classList to toggle the 'active class'
-
-const togglelike=(sourceDOMElement)=>{
+const.togglelike=(sourceDOMElement)=>{
   console.log(elem)
   sourceDOMElement.classlist.togglelike('active')
 }
